@@ -1,0 +1,215 @@
+Intern Id :CITS3203 [portfolio.html](https://github.com/user-attachments/files/28866375/portfolio.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#444;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    padding:50px;
+}
+
+.hero{
+    text-align:center;
+    background:white;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.about, .skills, .projects, .contact{
+    background:white;
+    margin:20px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills ul{
+    list-style:none;
+}
+
+.skills li{
+    background:#007BFF;
+    color:white;
+    display:inline-block;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.project-card{
+    background:#f9f9f9;
+    padding:20px;
+    margin:15px 0;
+    border-left:5px solid #007BFF;
+}
+
+.contact form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact input,
+.contact textarea{
+    padding:10px;
+    margin:10px 0;
+}
+
+.contact button{
+    padding:10px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.contact button:hover{
+    background:#0056b3;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sowmiya S</h1>
+    <p>Student | Web Developer | Programmer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <img src="https://via.placeholder.com/180" alt="Profile Photo">
+    <h2>Hello, I'm Sowmiya</h2>
+    <p>Welcome to my personal portfolio website.</p>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <br>
+    <p>
+        I am a passionate Computer Science student interested in
+        Web Development, Database Management Systems, Operating Systems,
+        and Software Development. I enjoy learning new technologies and
+        building useful projects.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <br>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>DBMS</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <br>
+
+    <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>
+            Developed a database-driven application for managing
+            student records efficiently.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h3>Library Management System</h3>
+        <p>
+            Created a system to automate book issue, return,
+            and inventory management.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+            Designed a responsive personal portfolio website using
+            HTML and CSS.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <br>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sowmiya S | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>    <img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/b95efb90-2351-41b4-af04-9b28082e1b6c" />
+<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/464915e0-b5f6-498c-9cf5-fe9bc4d27513" />
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/021c0081-2fe0-454e-9bf1-d671c1247f23" />
